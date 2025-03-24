@@ -24,7 +24,7 @@
 <br>
 
 <h2>📌 Como acessar</h2>
-Você pode visualizar o portfólio aqui: <a href="https://gustavosousa19.github.io/meu-Portif-lio/"></a>
+Você pode visualizar o portfólio <a href="https://gustavosousa19.github.io/meu-Portif-lio/" target="_blank"> aqui</a>
 
 <br>
 <br>
