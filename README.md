@@ -4,7 +4,8 @@
 <br>
 
 <h2>🖼️ Preview do Projeto</h2>
-<img src=""
+<img src="https://github.com/gustavosousa19/meu-Portif-lio/blob/main/assets/incio.png?raw=true" width="450">
+<img src="https://github.com/gustavosousa19/meu-Portif-lio/blob/main/assets/contato.png?raw=true" width="450";>
 
 <br>
 
@@ -23,7 +24,7 @@
 <br>
 
 <h2>📌 Como acessar</h2>
-Você pode visualizar o portfólio aqui .
+Você pode visualizar o portfólio <a href="https://gustavosousa19.github.io/meu-Portif-lio/" target="_blank"> aqui</a>
 
 <br>
 <br>
