@@ -443,72 +443,137 @@ footer {
 
 @media (max-width: 768px) {
 
-    /* ----------- MENU ----------- */
-    .menu {
-        gap: 1rem;
+    /* -------- GERAL -------- */
+    .container,
+    .container-hero,
+    .sobre,
+    .secao,
+    .contatos {
+        padding: 40px 20px;
     }
 
-    /* ----------- HERO / PRINCIPAL ----------- */
-    .principal {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* -------- HEADER -------- */
+    .header {
+        padding: 15px 0;
+    }
+
+    .container {
+        padding: 0 20px;
         flex-direction: column;
-        text-align: left;
-        gap: 20px;
+        gap: 10px;
     }
 
-    .principal img {
-        width: 240px;
-        height: 240px;
-        margin: 0 auto;
-        display: block;
+    .navbar ul {
+        gap: 15px;
+        font-size: 15px;
     }
 
-    .principal h1 {
-        font-size: 2rem;
-        margin: 20px 0 10px;
+    .logo {
+        font-size: 28px;
     }
 
-    .principal p {
-        font-size: 1rem;
-        max-width: 90%;
+    /* -------- HERO -------- */
+    .container-hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        padding-top: 160px;
+        /* espaço para o header */
     }
 
-    /* ----------- SOBRE ----------- */
-    .sobre p {
-        text-align: left;
-        font-size: 1rem;
-    }
-
-    .sobre-titulo::after {
-        left: 0;
-        width: 100%;
-    }
-
-    /* ----------- TÍTULO DE SEÇÃO ----------- */
-    .titulo-secao::after {
-        left: 0;
-        width: 100%;
-    }
-
-    /* ----------- CONTATOS ----------- */
-    .contatos h2 {
+    .hero-text h2 {
         font-size: 2rem;
     }
 
-    .contatos-titulo::after {
-        left: 0;
-        width: 100%;
-    }
-
-    .botoes-contato {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px;
-    }
-
-    .botao-contato {
-        min-width: 110px;
-        padding: 10px 8px;
+    .sub-titulo {
+        max-width: 100%;
         text-align: center;
     }
 
+    .foto-perfil {
+        width: 220px;
+        height: 220px;
+        margin-bottom: 200px;
+    }
+
+    /* -------- SOBRE -------- */
+    .sobre-titulo {
+        font-size: 32px;
+    }
+
+    .sobre-titulo::after {
+        left: -20px;
+        width: 50%;
+    }
+
+    .sobre-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* -------- TÍTULOS DE SEÇÃO -------- */
+    .titulo-secao {
+        font-size: 32px;
+    }
+
+    .titulo-secao::after {
+        left: -45px;
+        width: 70%;
+    }
+
+    /* -------- PROJETOS -------- */
+    .caixa-projetos {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .card-projeto {
+        border-radius: 14px;
+    }
+
+    .img-projeto {
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .caixa-texto-projeto {
+        padding: 1.2rem;
+    }
+
+    .card-projeto a {
+        margin-top: auto;
+        align-self: flex-start;
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+
+    /* -------- CONTATO -------- */
+    .contatos-titulo {
+        font-size: 32px;
+    }
+
+    .contatos-titulo::after {
+        left: -70px;
+        width: 90%;
+    }
+
+    .formulario-contato {
+        margin-top: 40px;
+        padding: 1.2rem;
+    }
+
+    .botoes-contato {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .botao-contato {
+        width: 50%;
+        justify-content: center;
+    }
 }
